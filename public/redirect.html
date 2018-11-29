@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.0px; font: 10.5px Monaco; color: #25b390; -webkit-text-stroke: #25b390; background-color: #f5f6f9}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.0px; font: 10.5px Monaco; color: #178cf0; -webkit-text-stroke: #178cf0; background-color: #f5f6f9}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.0px; font: 10.5px Monaco; color: #485262; -webkit-text-stroke: #485262; background-color: #f5f6f9}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.0px; font: 10.5px Monaco; color: #485262; -webkit-text-stroke: #485262; background-color: #f5f6f9; min-height: 15.0px}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 15.0px; font: 10.5px Monaco; color: #dc4a28; -webkit-text-stroke: #dc4a28; background-color: #f5f6f9}
+    span.s1 {font-kerning: none; color: #485262; -webkit-text-stroke: 0px #485262}
+    span.s2 {font-kerning: none}
+    span.s3 {font-kerning: none; color: #178cf0; -webkit-text-stroke: 0px #178cf0}
+    span.s4 {font-kerning: none; color: #25b390; -webkit-text-stroke: 0px #25b390}
+    span.s5 {font-kerning: none; color: #dc4a28; -webkit-text-stroke: 0px #dc4a28}
+    span.s6 {font-kerning: none; color: #8647bd; -webkit-text-stroke: 0px #8647bd}
+    span.s7 {font-kerning: none; color: #f8b00e; -webkit-text-stroke: 0px #f8b00e}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span></span><span class="s2">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span><span class="s2">&lt;html&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span><span class="s2">&lt;head&gt;</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span></span><span class="s3">&lt;title&gt;</span><span class="s2">Hello, Blockstack!</span><span class="s3">&lt;/title&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span></span><span class="s2">&lt;script&gt;</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span></span><span class="s3">function</span><span class="s2"> getParameterByName</span><span class="s4">(</span><span class="s2">name</span><span class="s4">)</span><span class="s2"> </span><span class="s4">{</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">     </span></span><span class="s3">var</span><span class="s2"> match </span><span class="s4">=</span><span class="s2"> RegExp</span><span class="s4">(</span><span class="s5">'[?&amp;]'</span><span class="s2"> </span><span class="s4">+</span><span class="s2"> name </span><span class="s4">+</span><span class="s2"> </span><span class="s5">'=([^&amp;]*)'</span><span class="s4">).</span><span class="s2">exec</span><span class="s4">(</span><span class="s2">window</span><span class="s4">.</span><span class="s2">location</span><span class="s4">.</span><span class="s2">search</span><span class="s4">);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">     </span></span><span class="s4">return</span><span class="s2"> match </span><span class="s4">&amp;&amp;</span><span class="s2"> decodeURIComponent</span><span class="s4">(</span><span class="s2">match</span><span class="s4">[</span><span class="s5">1</span><span class="s4">].</span><span class="s2">replace</span><span class="s4">(</span><span class="s6">/</span><span class="s7">\+</span><span class="s6">/g</span><span class="s4">,</span><span class="s2"> </span><span class="s5">' '</span><span class="s4">));</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span></span><span class="s4">}</span></p>
+<p class="p4"><span class="s2"></span><br></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span></span><span class="s3">var</span><span class="s2"> authResponse </span><span class="s4">=</span><span class="s2"> getParameterByName</span><span class="s4">(</span><span class="s5">'authResponse'</span><span class="s4">)</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">   </span>window</span><span class="s4">.</span><span class="s1">location</span><span class="s4">=</span><span class="s2">"myblockstackapp://?authResponse="</span><span class="s1"> </span><span class="s4">+</span><span class="s1"> authResponse</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span></span><span class="s2">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span><span class="s2">&lt;body&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span><span class="s2">&lt;/body&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span><span class="s2">&lt;/html&gt;</span></p>
+</body>
+</html>
